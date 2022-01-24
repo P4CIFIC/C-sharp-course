@@ -1,0 +1,15 @@
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\cashier.exe
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\cashier.deps.json
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\cashier.runtimeconfig.json
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\cashier.dll
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\ref\cashier.dll
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\bin\Debug\net6.0\cashier.pdb
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.csproj.AssemblyReference.cache
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.AssemblyInfoInputs.cache
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.AssemblyInfo.cs
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.csproj.CoreCompileInputs.cache
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.dll
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\ref\cashier.dll
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.pdb
+C:\Users\malek\Desktop\LTU\projects\cashier\cashier\obj\Debug\net6.0\cashier.genruntimeconfig.cache
