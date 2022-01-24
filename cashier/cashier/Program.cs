@@ -13,36 +13,54 @@ while (true)
         {
             continue;
         }
+        else if (cashier.getAmount() > cashier.getPaid())
+        {
+            Console.WriteLine("Du har betalt för lite. Prova igen!");
+            continue;
+        }
     }
     catch (Exception e)
     {
-        if (e is InvalidCastException || e is IOException)
+        if (e is InvalidCastException || e is IOException || e is ArgumentNullException)
         Console.WriteLine("Ogiltigt");
         continue;
     }
     diff = cashier.getPaid() - cashier.getAmount();
-    
+    cashier.countMoney(diff);
+
+    string output = "";
+    Console.WriteLine("Du får tillbaka: ");
+    foreach (KeyValuePair<int, int> entry in cashier.getDict())
+    {
+        if (entry.Value > 0)
+        {
+            output = string.Format("{0}: {1}", entry.Key, entry.Value);
+            Console.WriteLine(output);
+        }
+    }
+    cashier.clrNumOfCurrency();
 }
+
 
 public class Cashier
 {
     private int amount;
     private int paid;
-    private Dictionary<string, int> dict;
+    private Dictionary<int, int> dict;
 
     public Cashier(int amount, int paid)
     {
         this.amount = amount;
         this.paid = amount;
-        dict = new Dictionary<string, int>(8);
-        dict.Add("500", 0);
-        dict.Add("200", 0);
-        dict.Add("100", 0);
-        dict.Add("50", 0);
-        dict.Add("20", 0);
-        dict.Add("10", 0);
-        dict.Add("5", 0);
-        dict.Add("1", 0);
+        dict = new Dictionary<int, int>(8);
+        dict.Add(500, 0);
+        dict.Add(200, 0);
+        dict.Add(100, 0);
+        dict.Add(50, 0);
+        dict.Add(20, 0);
+        dict.Add(10, 0);
+        dict.Add(5, 0);
+        dict.Add(1, 0);
     }
     public void setAmount(int amount)
     {
@@ -60,9 +78,27 @@ public class Cashier
     {
         return paid;
     }
+    public Dictionary<int,int> getDict()
+    {
+        return dict;
+    }
+    public void countMoney(int diff)
+    {
+        while(diff != 0)
+        {
+            foreach (int element in dict.Keys)
+            {
+                while ((diff-element) >= 0)
+                {
+                    dict[element] += 1;
+                    diff -= element;
+                }
+            }
+        }
+    }
     public void clrNumOfCurrency()
     {
-        foreach (string currency in dict.Keys)
+        foreach (int currency in dict.Keys)
         {
             dict[currency] = 0;
         }

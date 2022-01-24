@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malek\\Desktop\\LTU\\projects\\cashier\\cashier\\cashier.csproj",
+      "projectUniqueName": "C:\\Users\\malek\\Desktop\\LTU\\c_sharp_projects\\cashier\\cashier\\cashier.csproj",
       "projectName": "cashier",
-      "projectPath": "C:\\Users\\malek\\Desktop\\LTU\\projects\\cashier\\cashier\\cashier.csproj",
+      "projectPath": "C:\\Users\\malek\\Desktop\\LTU\\c_sharp_projects\\cashier\\cashier\\cashier.csproj",
       "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malek\\Desktop\\LTU\\projects\\cashier\\cashier\\obj\\",
+      "outputPath": "C:\\Users\\malek\\Desktop\\LTU\\c_sharp_projects\\cashier\\cashier\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
