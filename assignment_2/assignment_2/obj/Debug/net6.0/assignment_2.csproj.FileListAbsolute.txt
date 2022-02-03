@@ -1,0 +1,15 @@
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.csproj.AssemblyReference.cache
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.AssemblyInfoInputs.cache
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.AssemblyInfo.cs
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.csproj.CoreCompileInputs.cache
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\assignment_2.exe
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\assignment_2.deps.json
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\assignment_2.runtimeconfig.json
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\assignment_2.dll
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\ref\assignment_2.dll
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\bin\Debug\net6.0\assignment_2.pdb
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.dll
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\ref\assignment_2.dll
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.pdb
+C:\Users\malek\Desktop\LTU\projects\assignment_2\assignment_2\obj\Debug\net6.0\assignment_2.genruntimeconfig.cache
