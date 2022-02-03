@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6fd2edd5-acc5-404a-936e-a0cda08c3e08": {
+      "ProjectGuid": "6fd2edd5-acc5-404a-936e-a0cda08c3e08",
+      "DisplayName": "Cashier_GUI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "1b0e14d4-8571-47c2-94fa-5dc281f9f506": {
+      "ProjectGuid": "1b0e14d4-8571-47c2-94fa-5dc281f9f506",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,57 +1,36 @@
-﻿/*
+/*
  * Author: Malek Abdul Sater
  * Mail: malekabdulsater@gmail.com
  * Kurs: L0002B
  * Uppgift 1 Console
  */
-
-CashRegister cashReg = new CashRegister();
-int owed = 0;
-string output = "";
-
-while (true)
+namespace Cashier_GUI
 {
-    Console.WriteLine("\n");
-    try
+    internal static class Program
     {
-        Console.Write("Cost: ");
-        cashReg.setCost(Int32.Parse(Console.ReadLine()));
-        Console.Write("Paid: ");
-        cashReg.setPaid(Int32.Parse(Console.ReadLine()));
-        //edge cases 
-        if (cashReg.getCost() == 0 || (cashReg.getCost() == cashReg.getPaid()))
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            continue;
+            CashRegister cashReg = new CashRegister();
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1(cashReg));
         }
-        else if (cashReg.getCost() > cashReg.getPaid())
-        {
-            Console.WriteLine("You have paid too little!");
-            continue;
-        }
+
     }
-    //catches possible exceptions and continues program
-    catch (Exception e)
-    {
-        if (e is InvalidCastException || e is IOException || e is ArgumentNullException)
-            Console.WriteLine("Invalid");
-        continue;
-    }
-    owed = cashReg.getPaid() - cashReg.getCost();
-    cashReg.countMoney(owed);
-    //prints results
-    Console.WriteLine("\nYou get: \n" + "(type: amount)\n");
-    foreach (KeyValuePair<int, int> entry in cashReg.getDict())
-    {
-        if (entry.Value > 0)
-        {
-            output = string.Format("{0}: {1}", entry.Key, entry.Value);
-            Console.WriteLine(output);
-        }
-    }
-    cashReg.clrNumOfCurrency();
+
 }
 
-
+/*
+ * Author: Malek Abdul Sater
+ * Mail: malekabdulsater@gmail.com
+ * Kurs: L0002B
+ * Uppgift 1 Console
+ */
 public class CashRegister
 {
     private int _cost;

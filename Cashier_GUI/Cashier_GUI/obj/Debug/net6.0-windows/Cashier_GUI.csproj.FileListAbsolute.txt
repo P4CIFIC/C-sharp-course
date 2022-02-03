@@ -1,0 +1,17 @@
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\Cashier_GUI.exe
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\Cashier_GUI.deps.json
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\Cashier_GUI.runtimeconfig.json
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\Cashier_GUI.dll
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\ref\Cashier_GUI.dll
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\bin\Debug\net6.0-windows\Cashier_GUI.pdb
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.csproj.AssemblyReference.cache
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.Form1.resources
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.csproj.GenerateResource.cache
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.AssemblyInfoInputs.cache
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.AssemblyInfo.cs
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.csproj.CoreCompileInputs.cache
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.dll
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\ref\Cashier_GUI.dll
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.pdb
+C:\Users\malek\Desktop\LTU\projects\Cashier_GUI\Cashier_GUI\obj\Debug\net6.0-windows\Cashier_GUI.genruntimeconfig.cache
